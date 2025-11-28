@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Guardianes de la Semilla</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <canvas id="natureCanvas"></canvas>
+
+    <header>
+        <div class="container">
+            <h1>Los Guardianes de la Semilla</h1>
+            <p>Custodiando la Vida, Cultivando el Futuro</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#mision">Nuestra Misión</a></li>
+                <li><a href="#semillas">Semillas Antiguas</a></li>
+                <li><a href="#comunidad">Comunidad</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        
+        <section id="inicio" class="hero-section">
+            <h2>El Despertar de la Tierra</h2>
+            <p>Somos la voz de lo silvestre, el eco de la selva y el susurro del viento. **Los Guardianes de la Semilla** es un santuario digital dedicado a la conservación de la biodiversidad y el conocimiento ancestral sobre la vida vegetal. Únete a nuestra causa y sé parte del cambio.</p>
+            <p class="cta">¡Descubre el poder de una sola semilla!</p>
+            
+        </section>
+        
+        <hr>
+
+        <section id="mision" class="content-section">
+            <h3>🌱 Sembrar Conciencia</h3>
+            <p>Nuestra misión es doble: **proteger las variedades de semillas nativas y tradicionales** que están en riesgo de extinción, y **educar a las nuevas generaciones** sobre la importancia de la agricultura ecológica y la soberanía alimentaria. Cada semilla es una historia, una farmacia y una fuente de vida.</p>
+            <div class="card-grid">
+                <div class="card">
+                    <h4>Custodia</h4>
+                    <p>Mantenimiento de bancos de semillas comunitarios.</p>
+                </div>
+                <div class="card">
+                    <h4>Educación</h4>
+                    <p>Talleres sobre germinación y permacultura.</p>
+                </div>
+                <div class="card">
+                    <h4>Intercambio</h4>
+                    <p>Fomento de ferias de intercambio de semillas ancestrales.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="comentarios" class="comments-section">
+            <h3>🗣️ Deja tu Huella: Círculo de Comentarios</h3>
+            <form id="commentForm">
+                <label for="commentName">Tu Nombre:</label>
+                <input type="text" id="commentName" required>
+
+                <label for="commentText">Tu Comentario sobre la Naturaleza:</label>
+                <textarea id="commentText" rows="5" required></textarea>
+
+                <button type="submit">Enviar Comentario</button>
+            </form>
+
+            <div id="commentsList">
+                <h4>Comentarios Anteriores:</h4>
+                <p class="no-comments">Aún no hay comentarios. ¡Sé el primero!</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Los Guardianes de la Semilla | Un Proyecto de Amor por la Tierra</p>
+            
+            <div class="social-links">
+                <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
